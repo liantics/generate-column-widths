@@ -109,6 +109,9 @@ The generator has several defaults built in. It assumes you want a maximum of 4
 columns in your view, using a 12 column Bootstrap3 grid. You can change the
 defaults by specifying a different value for any or all of the optional variables.
 
+You need only include those options you want to change. Any option you don't
+include will automatically use the default.
+
 ####Option: total_grid_columns
 The number of columns in your grid system. Bootstrap3 uses 12, others may use 9
 or some other number.
@@ -145,6 +148,8 @@ Default:
 
     min_column_span: 3
 
+Unless you're fond of seeing divide by zero errors, don't set this to zero.
+
 ####Option: max_column_span
 This is the maximum number of columns you want to span. It's the opposite of the
 above. The default is 12, so divide 12/12, and you get ... 1. That's the minimum
@@ -153,6 +158,8 @@ number of columns that will be shown.
 Default:
 
     max_column_span: 12
+
+Unless you're fond of seeing divide by zero errors, don't set this to zero.
 
 ####Example 1
 On one page, I need to accomodate an extra column of data that's generated
