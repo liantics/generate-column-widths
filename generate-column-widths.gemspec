@@ -5,7 +5,7 @@ require 'generate-column-widths/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "generate-column-widths"
-  spec.version       = Generate::Column::Widths::VERSION
+  spec.version       = GenerateColumnWidths::VERSION
   spec.authors       = ["'Liane Allen'"]
   spec.email         = ["'github@lianeallen.com'"]
   spec.summary       = %q{Generate the span value to use with a css grid system.}
